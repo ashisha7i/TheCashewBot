@@ -36,7 +36,8 @@ async function getRandomKitty() {
     let image
 
     await client.photos.search({ query, per_page: 10 }).then(res => {
-      let images = res.photos
+      let images = res.photos;
+      console.log(res);
       image = images[randomInteger(0, (images.length - 1))]
 
     })
