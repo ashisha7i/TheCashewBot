@@ -12,7 +12,7 @@ const facts = [
         animal: "Lion"
     },
     {
-        fact: "The Amazon river is home to four species of river dolphin that are found nowhere else on Earth. ",
+        fact: "The Amazon river is home to four species of river dolphin that are found nowhere else on Earth.! ",
         animal: "Dolphin"
     },
 ]
