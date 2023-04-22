@@ -1,4 +1,4 @@
-Telegram Bot created in node.js as a practice project
+### Telegram Bot created in node.js as a practice project
 
 Uses the following libraries/modules:
 
