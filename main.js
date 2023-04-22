@@ -23,7 +23,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 
 bot.start((ctx) => {
     //process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0
-    let message = ` Hi ${ctx.message.from.first_name}, so nice to see you!!\n\nUse the /fact command to receive a new fact! \nUse /joke command to fetch a new joke!\nUse /kitty command to fetch a new cat image!\nUse /puppy command to fetch a new puppy image!`;
+    let message = ` Hi ${ctx.message.from.first_name}, so nice to see you!!\n\n- Love facts? Use /fact\n- Need a joke? Use/joke\n- Like Cats? Use /kitty\n- Like puppies? Use /puppy`;
     ctx.reply(message);
 });
 
