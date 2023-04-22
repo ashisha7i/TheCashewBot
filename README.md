@@ -8,3 +8,6 @@ Uses the following libraries/modules:
 - uuid - to generate UUIDs
 - dotenv- to keep the sensitive information out of GitHub repositories
 - axios - Promise based HTTP client for the browser and node.js
+
+
+> Deployed on free 'Hobby' tier on Fly.io
